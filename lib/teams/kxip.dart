@@ -12,7 +12,7 @@ class _KXIPState extends State<KXIP> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[800],
+      backgroundColor: Colors.red[800],
       body: SafeArea(
               child: SingleChildScrollView(
           child: Column(
@@ -35,18 +35,18 @@ class _KXIPState extends State<KXIP> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.red[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('SQUAD',style: mystyle(24,Colors.orange[900]),),
+                          Text('SQUAD',style: mystyle(24,Colors.red[900]),),
 
                           SizedBox(
                             width: 130,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.red[900],
                             onPressed: (){
 
                             }, 
@@ -126,18 +126,18 @@ class _KXIPState extends State<KXIP> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.red[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.orange[900]),),
+                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.red[900]),),
 
                           SizedBox(
                             width: 80,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.red[900],
                             onPressed: (){
 
                             }, 
@@ -170,18 +170,18 @@ class _KXIPState extends State<KXIP> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.red[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('RESULTS',style: mystyle(24,Colors.orange[900]),),
+                          Text('RESULTS',style: mystyle(24,Colors.red[900]),),
 
                           SizedBox(
                             width: 110,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.red[900],
                             onPressed: (){
 
                             }, 
@@ -213,7 +213,7 @@ class _KXIPState extends State<KXIP> {
                                       color: Colors.orange[900],
                                       ),
 
-                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 10th November 2020",style: mystyle(16,Colors.orange[900]),)),
+                                    Container(padding: EdgeInsets.all(8),child: Text("Sunday, 01 November 2020",style: mystyle(16,Colors.orange[900]),)),
                                   ],
                                 ),
 
@@ -234,11 +234,11 @@ class _KXIPState extends State<KXIP> {
                                       child: Image(
                                         width: 40,
                                         height: 40,
-                                        image: AssetImage('assets/Mumbai Indians.png'),
+                                        image: AssetImage('assets/Chennai Super Kings.png'),
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("MUMBAI INDIANS",style: mystyle(16,getteamcolor("KXIP")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("CHENNAI SUPER KINGS",style: mystyle(16,getteamcolor("CSK")),)),
                                     
                                   ],
                                 ),
@@ -256,11 +256,11 @@ class _KXIPState extends State<KXIP> {
                                       child: Image(
                                         width: 40,
                                         height: 40,
-                                        image: AssetImage('assets/Delhi Capitals.png'),
+                                        image: AssetImage('assets/Kings XI Punjab.png'),
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("DELHI CAPITALS",style: mystyle(16,getteamcolor("DC")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("KINGS XI PUNJAB",style: mystyle(16,getteamcolor("KXIP")),)),
                                   ],
                                 ),
 
@@ -271,9 +271,9 @@ class _KXIPState extends State<KXIP> {
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Final",style: mystyle(14,Colors.red),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Match 53",style: mystyle(14,Colors.red),)),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Dubai International Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Zayed Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
                                   ],
                                 ),
 
@@ -283,12 +283,14 @@ class _KXIPState extends State<KXIP> {
                                   color: Colors.grey[400],
                                 ),
 
-                                Container(child: Text("Mumbai Indians won by 5 wickets",style: mystyle(13,Colors.black),)),
+                                Container(child: Text("Chennai Super Kings won by 9 wickets",style: mystyle(13,Colors.black),)),
 
                               ],
                             )
                           
                           ),
+                          
+                          
 
                         SizedBox(
                         height: 10,
@@ -313,7 +315,7 @@ class _KXIPState extends State<KXIP> {
                                       color: Colors.orange[900],
                                       ),
 
-                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 10th November 2020",style: mystyle(16,Colors.orange[900]),)),
+                                    Container(padding: EdgeInsets.all(8),child: Text("Sunday, 01 November 2020",style: mystyle(16,Colors.orange[900]),)),
                                   ],
                                 ),
 
@@ -334,11 +336,11 @@ class _KXIPState extends State<KXIP> {
                                       child: Image(
                                         width: 40,
                                         height: 40,
-                                        image: AssetImage('assets/Mumbai Indians.png'),
+                                        image: AssetImage('assets/Rajasthan Royals.png'),
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("MUMBAI INDIANS",style: mystyle(16,getteamcolor("KXIP")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("RAJASTHAN ROYALS",style: mystyle(16,getteamcolor("RR")),)),
                                     
                                   ],
                                 ),
@@ -356,11 +358,11 @@ class _KXIPState extends State<KXIP> {
                                       child: Image(
                                         width: 40,
                                         height: 40,
-                                        image: AssetImage('assets/Delhi Capitals.png'),
+                                        image: AssetImage('assets/Kings XI Punjab.png'),
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("DELHI CAPITALS",style: mystyle(16,getteamcolor("DC")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("KINGS XI PUNJAB",style: mystyle(16,getteamcolor("KXIP")),)),
                                   ],
                                 ),
 
@@ -371,9 +373,9 @@ class _KXIPState extends State<KXIP> {
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Final",style: mystyle(14,Colors.red),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Match 50",style: mystyle(14,Colors.red),)),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Dubai International Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Zayed Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
                                   ],
                                 ),
 
@@ -383,7 +385,7 @@ class _KXIPState extends State<KXIP> {
                                   color: Colors.grey[400],
                                 ),
 
-                                Container(child: Text("Mumbai Indians won by 5 wickets",style: mystyle(13,Colors.black),)),
+                                Container(child: Text("Rajasthan Royals won by 7 wickets",style: mystyle(13,Colors.black),)),
 
                               ],
                             )

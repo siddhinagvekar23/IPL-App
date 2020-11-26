@@ -12,7 +12,7 @@ class _SRHState extends State<SRH> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[800],
+      backgroundColor: Colors.orange[800],
       body: SafeArea(
               child: SingleChildScrollView(
           child: Column(
@@ -35,7 +35,7 @@ class _SRHState extends State<SRH> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.orange[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
@@ -126,7 +126,7 @@ class _SRHState extends State<SRH> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.orange[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
@@ -170,7 +170,7 @@ class _SRHState extends State<SRH> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.orange[200],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [

@@ -12,7 +12,7 @@ class _DCState extends State<DC> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[800],
+      backgroundColor: Colors.blue[900],
       body: SafeArea(
               child: SingleChildScrollView(
           child: Column(
@@ -39,14 +39,14 @@ class _DCState extends State<DC> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('SQUAD',style: mystyle(24,Colors.orange[900]),),
+                          Text('SQUAD',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 130,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -130,14 +130,14 @@ class _DCState extends State<DC> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.orange[900]),),
+                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 80,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -174,14 +174,14 @@ class _DCState extends State<DC> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('RESULTS',style: mystyle(24,Colors.orange[900]),),
+                          Text('RESULTS',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 110,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -213,7 +213,7 @@ class _DCState extends State<DC> {
                                       color: Colors.orange[900],
                                       ),
 
-                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 10th November 2020",style: mystyle(16,Colors.orange[900]),)),
+                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 10 November 2020",style: mystyle(16,Colors.orange[900]),)),
                                   ],
                                 ),
 
@@ -238,7 +238,7 @@ class _DCState extends State<DC> {
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("MUMBAI INDIANS",style: mystyle(16,getteamcolor("DC")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("MUMBAI INDIANS",style: mystyle(16,getteamcolor("MI")),)),
                                     
                                   ],
                                 ),
@@ -313,7 +313,7 @@ class _DCState extends State<DC> {
                                       color: Colors.orange[900],
                                       ),
 
-                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 10th November 2020",style: mystyle(16,Colors.orange[900]),)),
+                                    Container(padding: EdgeInsets.all(8),child: Text("Tuesday, 8 November 2020",style: mystyle(16,Colors.orange[900]),)),
                                   ],
                                 ),
 
@@ -334,11 +334,11 @@ class _DCState extends State<DC> {
                                       child: Image(
                                         width: 40,
                                         height: 40,
-                                        image: AssetImage('assets/Mumbai Indians.png'),
+                                        image: AssetImage('assets/Sunrisers Hyderabad.png'),
                                       ),
                                     ),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("MUMBAI INDIANS",style: mystyle(16,getteamcolor("DC")),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("SUNRISERS HYDERABAD",style: mystyle(16,getteamcolor("SRH")),)),
                                     
                                   ],
                                 ),
@@ -371,9 +371,9 @@ class _DCState extends State<DC> {
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Final",style: mystyle(14,Colors.red),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Qualifier 2",style: mystyle(14,Colors.red),)),
 
-                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Dubai International Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
+                                    Container(margin: EdgeInsets.only(left: 10),child: Text("Zayed Cricket Stadium",style: mystyle(12,Colors.grey[700]),)),
                                   ],
                                 ),
 
@@ -383,7 +383,7 @@ class _DCState extends State<DC> {
                                   color: Colors.grey[400],
                                 ),
 
-                                Container(child: Text("Mumbai Indians won by 5 wickets",style: mystyle(13,Colors.black),)),
+                                Container(child: Text("Delhi Capitals won by 17 runs",style: mystyle(13,Colors.black),)),
 
                               ],
                             )

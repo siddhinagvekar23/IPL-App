@@ -12,7 +12,7 @@ class _RRState extends State<RR> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[800],
+      backgroundColor: Colors.pink[300],
       body: SafeArea(
               child: SingleChildScrollView(
           child: Column(
@@ -35,18 +35,18 @@ class _RRState extends State<RR> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.pink[600],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('SQUAD',style: mystyle(24,Colors.orange[900]),),
+                          Text('SQUAD',style: mystyle(24,Colors.white),),
 
                           SizedBox(
                             width: 130,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -126,18 +126,18 @@ class _RRState extends State<RR> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.pink[600],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.orange[900]),),
+                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.white),),
 
                           SizedBox(
                             width: 80,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -170,18 +170,18 @@ class _RRState extends State<RR> {
                       ),
 
                       Container(
-                        color: Colors.blue[200],
+                        color: Colors.pink[600],
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('RESULTS',style: mystyle(24,Colors.orange[900]),),
+                          Text('RESULTS',style: mystyle(24,Colors.white),),
 
                           SizedBox(
                             width: 110,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 

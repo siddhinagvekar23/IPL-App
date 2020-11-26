@@ -39,14 +39,14 @@ class _MIState extends State<MI> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('SQUAD',style: mystyle(24,Colors.orange[900]),),
+                          Text('SQUAD',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 130,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -130,14 +130,14 @@ class _MIState extends State<MI> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.orange[900]),),
+                          Text('UPCOMING \nMATCHES',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 80,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
@@ -174,14 +174,14 @@ class _MIState extends State<MI> {
                         padding: EdgeInsets.only(left: 15),
                         alignment: Alignment.centerLeft,
                         child: Row(children: [
-                          Text('RESULTS',style: mystyle(24,Colors.orange[900]),),
+                          Text('RESULTS',style: mystyle(24,Colors.blue[900]),),
 
                           SizedBox(
                             width: 110,
                           ),
 
                           FlatButton(
-                            color: Colors.orange[900],
+                            color: Colors.blue[900],
                             onPressed: (){
 
                             }, 
